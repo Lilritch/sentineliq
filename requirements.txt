@@ -1,0 +1,26 @@
+# Core analytics
+scikit-learn>=1.6.0
+numpy>=2.0.0
+pandas>=2.2.0
+
+# API backend
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+
+# Dashboard
+streamlit>=1.35.0
+plotly>=5.22.0
+watchdog>=4.0.0
+
+# Scheduling (background log polling)
+apscheduler>=3.10.0
+
+# Utilities
+joblib>=1.4.0
+python-dotenv>=1.0.0
+rich>=13.7.0
+
+# Testing
+pytest>=8.0.0
+httpx>=0.27.0
