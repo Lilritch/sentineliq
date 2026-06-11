@@ -4,6 +4,8 @@ SentinelIQ is a small SIEM-style monitoring project I put together to test how s
 
 The project is intentionally compact. I wanted the moving parts to stay readable: generate logs, turn them into features, score the event, apply practical alert rules, and show the result without needing a full SOC stack.
 
+![SentinelIQ dashboard screenshot](docs/screenshots/dashboard.png)
+
 ## What It Does
 
 - Ingests individual or batch security log events through an API.
